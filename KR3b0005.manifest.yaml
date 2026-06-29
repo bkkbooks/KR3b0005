@@ -1,0 +1,92 @@
+canonical_identifier: bkk:krp/KR3b0005/v1
+canonical_location: https://kanripo.org/bkk/KR3b0005/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 司馬法
+  identifiers:
+    krp: KR3b0005
+  tags:
+    tls-dates: dat05000
+    kr-categories: KR3b
+    tls-internal: tr-en
+  source:
+    repository: tls-texts
+    path: data/tls/KR3b0005.xml
+  edition:
+    short: bkk
+editions:
+- short: SBCK
+  label: 【四部叢刊】
+- short: WYG
+  label: 【四庫全書・文淵閣】
+- short: krp
+assets:
+  parts:
+  - {seq: 1, filename: KR3b0005_001.yaml, hash: 'sha256:480147449830062f4c6a8c68970f37e38c71b6cbd071628cfc78aed472d9487e'}
+  - {seq: 2, filename: KR3b0005_002.yaml, hash: 'sha256:8626a444fd56203ee4d299cd498e1d18ff7ea9de8bb41969757e0c71d84f74c4'}
+  - {seq: 3, filename: KR3b0005_003.yaml, hash: 'sha256:1880634406895e5ba115f5b4e43b92619812d5163bf50f53ee4d6b5ceaaa0920'}
+  - {seq: 4, filename: KR3b0005_004.yaml, hash: 'sha256:c5b2ff9f09e53d4a9e5d29564f939c78ec8b406f2c525acd2c63e5c3633473ad'}
+  - {seq: 5, filename: KR3b0005_005.yaml, hash: 'sha256:e23a1855c9a748b6e117357d62d067c4d32c258c66badbf5038015b57b77c42d'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3b0005_001.markers.yaml, hash: 'sha256:ec6104e03dfa2d63a0421da709413786cc4d0aa93e292d821aa557db416abd32'}
+  - {seq: 2, role: markers, filename: assets/KR3b0005_002.markers.yaml, hash: 'sha256:09295a4236e08925aee392791da1059d1df668ad6adcb672393326ef2586f1f9'}
+  - {seq: 3, role: markers, filename: assets/KR3b0005_003.markers.yaml, hash: 'sha256:4d686916aff25dec6fde31b51d73df11853b0ab59a6497f5bf513a78ea4524df'}
+  - {seq: 4, role: markers, filename: assets/KR3b0005_004.markers.yaml, hash: 'sha256:a20d420e6beb9cb5ce0cfb1f71874d4950f1e3706a9a98548788b3998e2d5624'}
+  - {seq: 5, role: markers, filename: assets/KR3b0005_005.markers.yaml, hash: 'sha256:61c64240a698c3f5b41cce9e296ed40341f66585a2f618e3e6aabee82e62100b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3b0005_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 657
+  label: 仁本
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3b0005_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 950
+  label: 天子之義
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR3b0005_CHANT_003-1a.1-h
+    span:
+    - body
+    - 0
+    - 888
+  label: 定爵
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR3b0005_CHANT_004-1a.1-h
+    span:
+    - body
+    - 0
+    - 685
+  label: 嚴位
+  type: section
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR3b0005_CHANT_005-1a.1-h
+    span:
+    - body
+    - 0
+    - 274
+  label: 用眾
+  type: section
+  level: 1
+hash: sha256:7ba402142644bc3809439cdb869525e273e546fd572ecad058d1e590065cfa2d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

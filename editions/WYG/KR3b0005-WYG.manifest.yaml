@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR3b0005/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR3b0005/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 司馬法
+  date: '2015-09-11 03:51:02.869949'
+  source:
+    repository: kanripo
+    path: KR3b0005
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR3b0005_000-WYG.yaml, hash: 'sha256:e57a4396355413e111b4ac67669cec3cce2ae2b57a1e487b9509b5ef2485ec23'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3b0005_000-WYG.markers.yaml, hash: 'sha256:b38fbadf6232c847d81930dc009fbb49a33296ab7834a4a731a895f8087dea0c'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3b0005_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 3446
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:80cc6ed3be35184df4975157dedba03a9a964d952e516834fb17b272ca3cbf63

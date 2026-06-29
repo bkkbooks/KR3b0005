@@ -1,0 +1,83 @@
+canonical_identifier: bkk:krp/KR3b0005/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3b0005/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 司馬法
+  identifiers:
+    krp: KR3b0005
+  tags:
+    tls-dates: dat05000
+    kr-categories: KR3b
+    tls-internal: tr-en
+  source:
+    repository: tls-texts
+    path: data/tls/KR3b0005.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3b0005_001-CHANT.yaml, hash: 'sha256:cb1155251eaedae9a308af9774f0661268192f2a15536d42f8e5f72ad32f75b7'}
+  - {seq: 2, filename: KR3b0005_002-CHANT.yaml, hash: 'sha256:33e84988429c44592aa133ee3d066f3aabce3f465283ee0cad7c52f207736a67'}
+  - {seq: 3, filename: KR3b0005_003-CHANT.yaml, hash: 'sha256:29783b44aa1ba812b3958addebf4fa2dcefcaee1b4336d060ed4a4b86b8f83f2'}
+  - {seq: 4, filename: KR3b0005_004-CHANT.yaml, hash: 'sha256:e210c53458e8a32be8b384c5325caa66b217eb5eea577ad059e8c0149d212fa6'}
+  - {seq: 5, filename: KR3b0005_005-CHANT.yaml, hash: 'sha256:7b5b2b2461ddb36a97072e34a31e2c6f0595cc6f06129616e1b1dd10ddff9967'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3b0005_001-CHANT.markers.yaml, hash: 'sha256:eedce273241fadfeaa20102fb77bbaeebcb3a0d435a67eedc3863c8afaf8fe00'}
+  - {seq: 2, role: markers, filename: assets/KR3b0005_002-CHANT.markers.yaml, hash: 'sha256:067ec65823274e9965858dbd7e86b3d38d52aa4644993762d0d92cacc15f0226'}
+  - {seq: 3, role: markers, filename: assets/KR3b0005_003-CHANT.markers.yaml, hash: 'sha256:d4d6df2f8ac36f382e25d509961ed96a1cf91bd2cd2430ec2a1df836c1dbfd72'}
+  - {seq: 4, role: markers, filename: assets/KR3b0005_004-CHANT.markers.yaml, hash: 'sha256:d5510ec5cca0fb0a4be65755c5f31cdd15d7df2531eb53f94bdca69dbea811c7'}
+  - {seq: 5, role: markers, filename: assets/KR3b0005_005-CHANT.markers.yaml, hash: 'sha256:83052e296b8a87fad076b0507c849ab38062b51e0ed9443215819fa8d3c218c3'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3b0005_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 657
+  label: 仁本
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3b0005_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 950
+  label: 天子之義
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR3b0005_CHANT_003-1a.1-h
+    span:
+    - body
+    - 0
+    - 888
+  label: 定爵
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR3b0005_CHANT_004-1a.1-h
+    span:
+    - body
+    - 0
+    - 685
+  label: 嚴位
+  type: section
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR3b0005_CHANT_005-1a.1-h
+    span:
+    - body
+    - 0
+    - 274
+  label: 用眾
+  type: section
+  level: 1
+hash: sha256:8aeae34fedeccb1cae836ef306905f8eb2cd5c172611ec770bcfea12a8e81ed1

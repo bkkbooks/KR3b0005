@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR3b0005/krp/v1
+canonical_location: https://kanripo.org/bkk/KR3b0005/krp/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 司馬法
+  date: '2015-09-11 03:51:02.869949'
+  source:
+    repository: kanripo
+    path: KR3b0005
+  base_edition: SBCK
+  edition:
+    short: krp
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR3b0005_000-krp.yaml, hash: 'sha256:fad53b66f3cd4ea61bd8615d02020e233d60cb47136322fcc0de6540c5e7f065'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3b0005_000-krp.markers.yaml, hash: 'sha256:7c795d6f0062aa9e955f3e07df2ff2dedf9235cac84eac89e21c4b4536a8a0f1'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3b0005_SBCK_000-1a
+    span:
+    - body
+    - 0
+    - 3472
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:7f9f3930c74fada97c4a5bdf89296a863b8d6c62e5ed23ce8316d6271f3258bd
